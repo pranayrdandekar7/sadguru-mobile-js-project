@@ -188,6 +188,18 @@ body {
     right: 30px;
     top: 200px;
 }
+.top-brnad-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+}
+.top-brand{
+    height: 50px;
+    cursor: pointer;
+}
 
 /* media querry */
 @media screen and (min-width: 993px) and (max-width: 1200px) {}
