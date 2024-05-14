@@ -86,17 +86,33 @@ body {
     height: 400px;
     width: 100%;
 }
+.our-speciality-heading{
+    margin: 40px 20px;
+    
+    font-size: 26px;
+    background-color: skyblue;
+    text-align: center;
+    padding: 7px;
+    border: 2px solid rgb(26, 166, 221);
+    border-radius: 40px;
+}
+.speciality-card-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 .speciality-card {
     height: 50px;
-
+    background-color:white;
     display: flex;
     border: 1px solid skyblue;
     width: 170px;
     padding: 15px;
-
     border-radius: 10px;
     cursor: pointer;
+    margin: 10px;
 
 }
 
