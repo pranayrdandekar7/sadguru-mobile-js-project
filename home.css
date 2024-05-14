@@ -23,7 +23,6 @@ body {
     width: 70px;
     border-radius: 50%;
     
-
 }
 
 .navbar-menus {
@@ -31,7 +30,6 @@ body {
     color: black;
     font-size: 20px;
     font-weight: bold;
-
 }
 
 .input-box {
@@ -84,6 +82,39 @@ body {
 .baner{
     height: 400px;
     width: 100%;
+}
+.speciality-card{
+    height: 50px;
+    
+    display: flex;
+    border: 1px solid skyblue;
+    width: 150px;
+    padding: 15px;
+    
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.speciality-icon{
+    font-size: 40px;
+    text-align: center;
+   
+}
+.speciality-card-desc-container{
+    display: flex;
+    flex-direction:column;
+  
+    margin-left: 10px;
+}
+.speciality-card-heading{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.speciality-card-desc{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 5px;
 }
 
 .home-img{
@@ -141,6 +172,5 @@ body {
         height: 300px;
         
     }
-
 
 }
