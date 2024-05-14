@@ -101,8 +101,9 @@ body {
 }
 
 .speciality-icon {
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
+    margin-top: 5px;
 
 }
 
@@ -110,6 +111,9 @@ body {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
+    align-items: center;
+   
+    width: 100%;
 }
 
 .speciality-card-heading {
