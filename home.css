@@ -76,6 +76,21 @@ body {
 
 }
 
+.contact-container{
+       height: 100px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       position: fixed;
+       left: 6px;
+       top: 350px;
+   
+}
+.contact-icon{
+    height: 40px;
+    
+}
+
 /* header */
 .header-heading {
     font-size: 30px;
@@ -89,7 +104,6 @@ body {
 }
 .our-speciality-heading{
     margin: 40px 20px;
-    
     font-size: 26px;
     background-color: skyblue;
     text-align: center;
