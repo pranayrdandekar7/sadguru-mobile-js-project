@@ -217,6 +217,12 @@ body {
     font-size: 25px;
     
 }
+.mob-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
 .mob-card{
     width: 220px;
   
