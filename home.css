@@ -225,7 +225,7 @@ body {
 }
 .mob-card{
     width: 220px;
-  
+    margin: 10px;
     padding: 10px;
     background-color: white;
     border-radius: 10px;
@@ -237,9 +237,10 @@ body {
 }
 .mob-card-img{
     width: 140px;
-    height: 200px;
+    height: 190px;
     display: block;
     margin:0 auto;
+    filter: drop-shadow(0 0 10px 5px gray);
 }
 .brand-name{
     font-weight: bold;
@@ -288,7 +289,6 @@ body {
     color: red;
     font-size: 16px;
 }
-
 
 
 
