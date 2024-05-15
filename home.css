@@ -219,10 +219,15 @@ body {
 }
 .mob-card{
     width: 220px;
-    height: 300px;
-    border: 1px solid gray;
+  
     padding: 10px;
     background-color: white;
+    border-radius: 10px;
+}
+.mob-card:hover{
+    /* border: 1px solid rgb(3, 167, 231); */
+    box-shadow: 0 0 10px 3px skyblue;
+    cursor: pointer;
 }
 .mob-card-img{
     width: 140px;
@@ -245,9 +250,23 @@ body {
 .review-container{
     display: flex;
     margin: 0 auto;
-    justify-content: space-evenly;
-    width: 200px;
+    justify-content: space-between;
+    width: 150px;
     margin-top: 5px;
+    align-items: center;
+    
+    
+}
+.card-review{
+    background-color: rgb(112, 170, 112);
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 50px;
+    
+}
+.card-total-review{
+    font-size: 18px;
 }
 .price-container{
     
@@ -260,7 +279,7 @@ body {
 }
 .del-price{
     color: red;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
