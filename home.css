@@ -25,6 +25,9 @@ body {
     align-items: center;
     justify-content: space-around;
     border: 1px solid gray;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 
 }
 
@@ -278,8 +281,7 @@ body {
     width: 150px;
     margin-top: 5px;
     align-items: center;
-    
-    
+
 }
 .card-review{
     background-color: rgb(112, 170, 112);
