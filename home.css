@@ -1,4 +1,14 @@
-/* navbar */
+
+@import url('https://fonts.googleapis.com/css2?family=Bigshot+One&family=Goldman:wght@400;700&family=Sarpanch:wght@400;500;600;700;800;900&family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+ /* font-family: "Bigshot One", serif;
+ font-family: "Tektur", sans-serif;
+ font-family: "Sarpanch", sans-serif;
+ font-family: "Goldman", sans-serif; */
+ /* font-family: "Orbitron", sans-serif; */
+
+     /* navbar */
+
 body {
     margin: 0;
     padding: 0;
@@ -28,8 +38,9 @@ body {
 .navbar-menus {
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
+    font-family: "Orbitron", sans-serif;
 }
 
 .input-box {
