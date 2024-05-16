@@ -366,6 +366,21 @@ body {
     margin: 10px;
 
 }
+/* light dark mode */
+.active {
+    border: 2px solid red;
+    padding: 2px;
+    border-radius: 5px;
+}
+.bg-dark {
+    background-color: black;
+    color: white;
+}
+
+.bg-light {
+    background-color: white;
+    color: black;
+}
 
 
 /* media querry */

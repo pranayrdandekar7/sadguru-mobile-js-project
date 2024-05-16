@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./home.css" />
 </head>
 
-<body onload="custName()">
+<body onload="custName()" id="body">
     <!-- navbar -->
     <div class="navbar-container">
 
@@ -28,9 +28,9 @@
     <h2 class="header-heading" id="header-heading">Hello Pranay , Welcome To Shri Sadguru Mobile Shop Website.</h2>
 
     <div class="mode-img-container">
-        <img src="./img/home-img/light-mode.png" height="25px" class="mode-img active" id="light" />
+        <img src="./img/home-img/light-mode.png" height="25px" class="mode-img active" id="light" onclick="lightMode()"/>
 
-        <img src="./img/home-img/dark-mode.png" height="25px" class="mode-img" id="dark" />
+        <img src="./img/home-img/dark-mode.png" height="25px" class="mode-img" id="dark" onclick="darkMode()" />
     </div>
     <div class="contact-container">
         <a href="tel:+919021679079"><img src="./img/home-img/telephone.png" class="contact-icon" /></a>
