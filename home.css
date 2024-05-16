@@ -307,7 +307,45 @@ body {
     color: red;
     font-size: 16px;
 }
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: 230px;
+    background-color: rgb(14, 13, 13);
+}
+.footer-logo{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 15px ;
+}
+.footer-quick-links{
+    color: white;
+    
+    margin-top: 10px;
+   
 
+}
+.products-links{
+    color: white;
+    margin-top: 10px;
+}
+.footer-useful-link{
+  color: white;
+  margin-top: 10px;
+}
+.reach-us{
+    color: white;
+    margin-top: 10px;
+}
+.footer-icon {
+    font-size: 26px;
+    margin: 10px;
+
+}
 
 
 /* media querry */
