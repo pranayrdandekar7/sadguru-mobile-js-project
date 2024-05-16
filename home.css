@@ -127,6 +127,7 @@ body {
     padding: 7px;
     border: 2px solid rgb(26, 166, 221);
     border-radius: 40px;
+    font-family: "Goldman", sans-serif; 
 }
 
 .speciality-card-container {
@@ -206,6 +207,16 @@ body {
     right: 30px;
     top: 200px;
 }
+.top-brands{
+    margin: 40px 20px;
+    font-size: 26px;
+    background-color: skyblue;
+    text-align: center;
+    padding: 7px;
+    border: 2px solid rgb(26, 166, 221);
+    border-radius: 40px;
+    font-family: "Goldman", sans-serif;
+}
 
 .top-brnad-container {
     display: flex;
@@ -235,6 +246,17 @@ body {
     width: 70%;
     display: block;
     margin: 40px auto;
+}
+.shop-by-brands-heading{
+    margin: 40px 20px;
+    font-size: 26px;
+    background-color: skyblue;
+    text-align: center;
+    padding: 7px;
+    border: 2px solid rgb(26, 166, 221);
+    border-radius: 40px;
+    font-family: "Goldman", sans-serif;
+
 }
 .mob-card-container{
     display: flex;
