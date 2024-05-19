@@ -2,19 +2,39 @@
     height: 350px;
    width: 500px;
    border-radius: 10px;
+   background-color: rgb(182, 216, 230);
   
 }
 .header-video-main-container{
     display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
 
 }
 .header-video-container{
     position: relative;
     width: 500px;
+   
 }
 .right-arrow{
     height: 40px;
     position: absolute;
     right: 10px;
     top: 150px;
+}
+.brand-icon-container{
+    /* height: 400px; */
+    padding: 15px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px auto;
+    background-color:rgb(182, 216, 230); ;
+}
+.brand-icon{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
 }
